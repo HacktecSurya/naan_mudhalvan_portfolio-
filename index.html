@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Surya Arish</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #bffaff; /* Updated background color */
+            color: #333;
+        }
+
+        header {
+            background-color: #002536; /* Updated primary color */
+            color: #fff;
+            text-align: center;
+            padding: 2.5rem 0;
+            position: relative;
+        }
+
+        .header-content h1 {
+            font-size: 2.8rem;
+            margin: 0;
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            border: 4px solid #fff;
+        }
+
+        nav {
+            background-color: #007d90; /* Updated accent color */
+            text-align: center;
+            padding: 0.8rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #70d2e7; /* Updated secondary color */
+        }
+
+        .section-content {
+            background-color: #e6f4f1; /* Updated box background color */
+            padding: 2rem;
+            margin: 1.5rem auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #002536; /* Updated primary color */
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #002536; /* Updated primary color */
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        ul li a:hover {
+            color: #70d2e7; /* Updated secondary color */
+        }
+
+        .download-button {
+            background-color: #002536; /* Updated primary color */
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            display: inline-block;
+            transition: background 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: #007d90; /* Updated accent color */
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #002536; /* Updated primary color */
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .profile-picture {
+                width: 100px;
+                height: 100px;
+                top: 15px;
+                left: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="./surya.jpg" alt="Surya Arish Profile Picture" class="profile-picture">
+        <div class="header-content">
+            <h1>Surya Arish</h1>
+            <p>Software Engineer | UI/UX Designer | iOS App Developer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I'm a <b>Passionate Software Developer and Designer</b> with expertise in web and mobile app development. Skilled in frontend and backend technologies, UI/UX design, and API integration. Enthusiastic about solving complex problems, creating intuitive user experiences, and leveraging AI for efficient solutions.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p><b>Tagore College of Arts & Science, Chennai</b> - Bachelor's Degree in Software Engineering (Affiliated with University of Madras)</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development (HTML, CSS, Bootstrap)</li>
+                <li>Mobile App Development (Swift, Android - Beginner, Flutter - Beginner)</li>
+                <li>Programming Languages (Python, C++, Java)</li>
+                <li>Backend Development & API Integration</li>
+                <li>UI/UX Design (Figma & Other Tools)</li>
+                <li>AI & Prompt Engineering</li>
+                <li>Problem-Solving & Debugging</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="section-content">
+            <h2>Experience</h2>
+            <h3>Arjava Tech Pvt Ltd</h3>
+            <p>During my time at Arjava Tech, I gained experience in client-developer communication and learned key technologies like HTML, CSS, JavaScript, Python, and MySQL for backend development. I also worked with frameworks such as React, CSS, SwiftUI, and Swift. This helped me develop well-rounded skills in web and mobile app development.</p>
+
+            <h3>iOS App Developer</h3>
+            <p>I developed an iOS app specifically designed for the elderly, allowing them to easily connect with their loved ones. The app included gesture detection for performing actions and leveraged Firebase for backend design and storing voice recordings for users to send to their targeted contacts.</p>
+
+            <h3>UI/UX Designer</h3>
+            <p>Currently working as a freelancer, I design intuitive user interfaces and create seamless user experiences using tools like Figma. I focus on ensuring that the design not only looks aesthetically pleasing but also provides users with an effortless and efficient experience.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="section-content" style="text-align: center;">
+            <h2>Resume</h2>
+            <a href="./Surya arish.pdf" target="_blank" class="download-button">Download CV</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Surya Arish | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 50,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
